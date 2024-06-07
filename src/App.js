@@ -30,7 +30,7 @@ function App() {
         <input type="text" name="ln" id="ln" onChange={second} required value={lastName}/>
         <button type='submit'> Submit</button>
       </form>
-      {submit ? <p>Full Name:{firstName} {lastName}</p> : null}
+      {submit ? <p>Full Name: {firstName} {lastName}</p> : null}
     </div>
   );
 }
